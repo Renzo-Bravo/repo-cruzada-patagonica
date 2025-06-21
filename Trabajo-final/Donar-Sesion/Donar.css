@@ -6,7 +6,10 @@
     align-content: center;
 }
 .Mucha-Gracias{
+    position: absolute;
     width: 430px;
     height: 46px;
-    margin: 0px;
+    left: 0px;
+    top: 1671px;
+    background-size: cover;
 }
