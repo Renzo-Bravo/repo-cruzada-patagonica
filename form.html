@@ -3,37 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Document</title>
 </head>
 <body>
-
-
+    
+    <footer>
         <form action="#" method="post">
-
             <label for="name">Nombe:</label>
             <input type="text" name="name" placeholder="Usuario" id="name" required>
 
             <label for="email">Email:</label>
             <input type="email" name="email" placeholder="usuario@gmail.com" id="email" required>
-            
+        
             <label for="telephone">Telefono:</label>
             <input type="tel" name="telephone" placeholder="1138XXXXXX" id="telephone" required>
 
-            <label for="">Mensaje</label>
+            <label for="message">Mensaje</label>
             <textarea name="message" id="message" rows="4" cols="30"></textarea>
 
-            <button type="submit">Enviar</button>
-        
-
-        
-            
+            <div id="button">
+                <button type="submit">Enviar</button>
             </div>
-        
         </form>
+    </footer>
 
-
-
-
-    
 </body>
 </html>
