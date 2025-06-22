@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cruzada Patagónica</title>
-    <link href="./index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -51,6 +51,26 @@
         <article>
             <section>
                 <!-- Acá puede ir el form para diferenciarlo de la descripción de la fundación-->
+                 <footer>
+                     <h2>Dejanos un mensaje</h2>
+                     <form action="#" method="post">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" placeholder="Ingresa tu nombre" id="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="usuario@gmail.com" id="email" required>
+                    
+                        <label for="telephone">Teléfono:</label>
+                        <input type="tel" name="telephone" placeholder="1138XXXXXX" id="telephone" required>
+
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" maxlength="250"></textarea>
+
+                        <div id="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </footer>
             </section>
         </article>
 
