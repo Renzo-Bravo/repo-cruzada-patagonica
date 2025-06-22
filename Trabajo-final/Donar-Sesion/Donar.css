@@ -1,4 +1,4 @@
-*{
+body{
     background-color: white;
 }
 .logo-CIFOR{
@@ -58,4 +58,109 @@
 .Terminos-text {
 }
 .Mucha-Gracias {
+}
+/*Header Css*/
+:root{
+    --altura-header:124px;
+    --color-primario:rgb(183, 49, 44);
+    --color-secundario:rgb(182, 176, 176);
+    --padding-left-right:2rem;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--color-primario);
+    height:var(--altura-header);
+    font-family: 'Inria Serif';
+    
+    
+}
+a{
+    text-decoration: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color:black;
+}
+ul{
+    list-style: none;
+    width: 1500px;
+}
+.barra {
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 var(--padding-left-right);
+}
+.menu{
+    display: none;
+}
+.menu:checked + .ul-link{
+    height:calc(100vh - var(--altura-header));
+}
+.logo-en-blanco{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    margin-bottom: 50px;
+
+}
+.list_icon {
+    color:white;
+    cursor:pointer;
+}
+.ul-link {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(182, 176, 176, 0.691);
+    top: var(--altura-header);
+    height:0;
+    left: 0;
+    overflow: hidden;
+    /*height: calc(100vh - var(--altura-header));*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    border-radius: 30px;
+
+    transition: all.3s;
+}
+
+.link {
+    font-size: 4.5rem;
+    color:black;
+    font-weight: normal;
+    margin: 2px;
+}
+
+@media(min-width:768px){
+.label-menu {
+    display: none;
+}
+.ul-link {
+    position: static;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+}
+.link {
+    font-size: 1.2rem;
+    transition: all .3s;
+    padding: .2rem .7rem;
+}
+.link:hover{
+    background-color: rgba(183, 49, 44, 0.726);
+    border-radius: 30px;
+    font-weight: bold;
+          
+}      
 }
