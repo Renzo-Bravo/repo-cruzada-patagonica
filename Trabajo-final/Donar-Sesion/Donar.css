@@ -7,12 +7,26 @@ body{
     display: flex;
     flex-direction: row;
 }
+.Logo-Tira{
+    width: 430px;
+    align-content: center;
+    padding: 4px;
+    padding-top: 8px;
+
+}
+.Titulo-img{
+position: absolute;
+width: 282px;
+height: 89px;
+right: 200px;
+background: scroll;
+}
 .Mucha-Gracias{
     position: absolute;
     width: 430px;
     height: 46px;
     left: 0px;
-    top: 1671px;
+    top: 1550px;
     background-size: cover;
 }
 article{
@@ -32,11 +46,7 @@ align-items: center;
 padding: 4px 8px;
 gap: 10px;
 position: absolute;
-width: 294px;
-height: 127px;
 min-height: 24px;
-left: 136px;
-top: 323px;
 background: #A19A9A;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 100px 0px 0px 100px;
@@ -55,7 +65,6 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.08px;
 color: #000000;
-
 }
 .Sub-Titulo {
 /* Apadriná un estudiante */
@@ -110,14 +119,6 @@ text-align: center;
 }
 .Form-Titulo-Donar {
 text-align: center;
-/* Plain Tooltip
-
-<p>Plain tooltips briefly describe a UI element. They're best used for labelling UI elements with no text, like icon-only buttons and fields.</p>
-
-Plain tooltip - Single-line
-*/
-
-/* Disposición automática */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -135,6 +136,7 @@ top: 703px;
 background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 30px;
+color: #ffffff;
 
 }
 .button-Donacion-1 {
@@ -155,6 +157,7 @@ top: 752px;
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 30px;
+
 
 
 }
@@ -243,6 +246,7 @@ background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 30px;
 text-align: center;
+color: #ffffff;
 }
 .button-Datos-Name {
 display: flex;
@@ -370,20 +374,46 @@ border-radius: 30px;
 text-align: center;
 
 }
-.Localida{
+.inp-localida{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 19.1592px;
+gap: 9.58px;
+
+position: absolute;
+width: 376px;
+height: 41px;
+left: 27px;
+top : 1190px;
+
+background: rgba(196, 196, 196, 0.44);
+border: 1.5966px solid rgba(66, 80, 102, 0.4);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+}
+.inp-provincia{
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 19.1592px 0px 0px;
-    gap: 6.39px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 19.1592px;
+    gap: 9.58px;
 
     position: absolute;
-    width: 892px;
-    height: 31px;
-    left: 67px;
-    top : 1180px;
+    width: 376px;
+    height: 41px;
+    left: 27px;
+    top : 1245px;
 
-
+    background: rgba(196, 196, 196, 0.44);
+    border: 1.5966px solid rgba(66, 80, 102, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 }
 .Pago {
 text-align: center;
@@ -401,14 +431,16 @@ width: 376px;
 height: 36px;
 min-height: 24px;
 left: 26px;
-top: 1406px;
+top: 1300px;
 
 background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 30px;
 text-align: center;
+color: #ffffff;
 }
-.Metodo-Pago {
+.Metodo-Pago-1 {
+  
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -421,20 +453,96 @@ width: 177px;
 height: 36px;
 min-height: 24px;
 left: 23px;
-top: 1468px;
+top: 1350px;
 
-background: #B7312C;
+background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 30px;
-text-align: center;
+
+}
+.Metodo-Pago-2{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 177px;
+height: 36px;
+min-height: 24px;
+left: 221px;
+top: 1350px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
 }
 .Donar-Hoy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 116px;
+    height: 54px;
+    min-height: 24px;
+    left: calc(50% - 116px/2 - 5px);
+    top: 1400px;
+
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 
 }
 .Terminos {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 2px;
+gap: 10px;
+
+position: absolute;
+width: 16px;
+height: 15px;
+left: calc(50% - 16px/2 - 136px);
+top: 1480px;
+
+background: rgba(255, 255, 255, 0.85);
+border: 1px solid #FF0000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+
+
 
 }
 .Terminos-text {
+    position: absolute;
+    width: 271px;
+    height: 32px;
+    left: calc(50% - 271px/2 + 1.5px);
+    top: 1480px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+
+    color: #006FFF;
+
+ 
 }
 /*Header Css*/
 :root{
@@ -479,7 +587,8 @@ ul{
     display: none;
 }
 .menu:checked + .ul-link{
-    height:calc(100vh - var(--altura-header));
+    height: 350px;
+    z-index: 9999;
 }
 .logo-en-blanco{
     width: 100px;
@@ -493,9 +602,9 @@ ul{
     cursor:pointer;
 }
 .ul-link {
-    width: 100%;
+    width: 250px;
     position: absolute;
-    background-color: rgba(182, 176, 176, 0.691);
+    background-color: rgba(182, 176, 176, 0.87);
     top: var(--altura-header);
     height:0;
     left: 0;
@@ -511,10 +620,17 @@ ul{
     transition: all.3s;
 }
 .link {
-    font-size: 4.5rem;
+    font-size: 24px;
     color:black;
     font-weight: normal;
     margin: 2px;
+    background-color: #A19A9A;
+    border-radius: 30px;
+    padding: 2px;
+}
+.li-link{
+    padding: 2px;
+    width: 150px;
 }
 @media(min-width:768px){
 .label-menu {
