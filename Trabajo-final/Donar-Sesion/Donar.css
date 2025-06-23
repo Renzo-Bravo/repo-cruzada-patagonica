@@ -2,8 +2,10 @@ body{
     background-color: white;
 }
 .logo-CIFOR{
-    width: 250px;
+    width: 350px;
     align-content: center;
+    display: flex;
+    flex-direction: row;
 }
 .Mucha-Gracias{
     position: absolute;
@@ -13,51 +15,426 @@ body{
     top: 1671px;
     background-size: cover;
 }
-.Donar-info {
+article{
+    font-family: 'Inria Serif';
+    font-style: normal;
 }
-.logo-CIFOR {
+.Donar-info {
+text-align: center;
+
 }
 .Titulo-Donar {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+position: absolute;
+width: 294px;
+height: 127px;
+min-height: 24px;
+left: 136px;
+top: 323px;
+background: #A19A9A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 100px 0px 0px 100px;
+position: absolute;
+width: 282px;
+height: 89px;
+left: calc(50% - 271px/2 + 68.5px);
+top: 345px;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.08px;
+color: #000000;
+
 }
 .Sub-Titulo {
+/* Apadriná un estudiante */
+
+position: absolute;
+width: 138px;
+height: 31px;
+left: calc(50% - 138px/2 + 3px);
+top: 469px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* o 90% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.08px;
+
+color: #000000;
+
+
 }
 .Parafo-Donar {
+/* 1 de cada 4 jóvenes provenientes del área rural en el país no  acceden a educación secundaria.  Apadrinar a un estudiante con  el aporte de $70.000 por mes nos ayudas a que los estudiantes puedan acceder a material didáctico de avanzada, que las herramientas y espacios de aprendizaje productivo en óptimas condiciones de seguridad e higiene, y que las aulas y residencias sean cómodas, cuidados y acogedores. */
+
+position: absolute;
+width: 375px;
+height: 161px;
+left: calc(50% - 375px/2 + 3.5px);
+top: 519px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* o 107% */
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: 0.4px;
+
+color: #000000;
+text-align: center;
+
 }
 .Form-Donar {
+text-align: center;
 }
 .Form-Titulo-Donar {
+text-align: center;
+/* Plain Tooltip
+
+<p>Plain tooltips briefly describe a UI element. They're best used for labelling UI elements with no text, like icon-only buttons and fields.</p>
+
+Plain tooltip - Single-line
+*/
+
+/* Disposición automática */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 376px;
+height: 40px;
+min-height: 24px;
+left: 31px;
+top: 703px;
+
+background: #B7312C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
 }
-.button-Donacion {
+.button-Donacion-1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 184px;
+height: 40px;
+min-height: 24px;
+left: 31px;
+top: 752px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+
+}
+.button-Donacion-2 {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 184px;
+height: 40px;
+min-height: 24px;
+left: 222px;
+top: 752px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+
+
+}
+.button-Donacion-3 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 184px;
+height: 40px;
+min-height: 24px;
+left: 32px;
+top: 801px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+}
+.button-Donacion-4 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 184px;
+height: 40px;
+min-height: 24px;
+left: 221px;
+top: 801px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+
 }
 .Datos-Donar {
+text-align: center;
 }
 .Titulo-Datos-Donar {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 376px;
+height: 40px;
+min-height: 24px;
+left: 29px;
+top: 858px;
+
+background: #B7312C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .button-Datos-Name {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 158px;
+height: 34px;
+min-height: 24px;
+left: 30px;
+top: 915px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .button-Datos-MiddleName {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 160px;
+height: 34px;
+min-height: 24px;
+left: 247px;
+top: 915px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .button-Datos-Email {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 378px;
+height: 37px;
+min-height: 24px;
+left: 29px;
+top: 963px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .button-Datos-DNI {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 378px;
+height: 37px;
+min-height: 24px;
+left: 29px;
+top: 1014px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .Fecha-Nacimiento {
+    position: absolute;
+    width: 270px;
+    height: 11px;
+    
+    top: 1064px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000; 
+}
+.Fecha{
+    justify-content: center;
+position: absolute;
+width: 376px;
+height: 47px;
+left: 30px;
+top: 1084px;
+opacity: 0.85;
+font-size: xx-large;
+align-items: center;
+
 }
 .button-Datos-Numero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 378px;
+height: 36px;
+min-height: 24px;
+left: 27px;
+top: 1140px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
+
+}
+.Localida{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 19.1592px 0px 0px;
+    gap: 6.39px;
+
+    position: absolute;
+    width: 892px;
+    height: 31px;
+    left: 67px;
+    top : 1180px;
+
+
 }
 .Pago {
+text-align: center;
 }
 .Titulo-Pago {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 376px;
+height: 36px;
+min-height: 24px;
+left: 26px;
+top: 1406px;
+
+background: #B7312C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .Metodo-Pago {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 177px;
+height: 36px;
+min-height: 24px;
+left: 23px;
+top: 1468px;
+
+background: #B7312C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
 }
 .Donar-Hoy {
+
 }
 .Terminos {
+
 }
 .Terminos-text {
-}
-.Mucha-Gracias {
 }
 /*Header Css*/
 :root{
@@ -133,14 +510,12 @@ ul{
 
     transition: all.3s;
 }
-
 .link {
     font-size: 4.5rem;
     color:black;
     font-weight: normal;
     margin: 2px;
 }
-
 @media(min-width:768px){
 .label-menu {
     display: none;

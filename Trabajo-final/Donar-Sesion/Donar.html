@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donar</title>
-    <link rel="stylesheet" href="Donar.css">
-    <link rel="stylesheet" href="header.html">
-    
+    <link rel="stylesheet" href="Donar.css">      
 </head>
 <body>
     <main>
@@ -48,8 +46,8 @@
             <section>
                 <div class="Donar-info">
                     <img class="logo-CIFOR" src="/Trabajo-final/img/logos CIFOR sin fondo.png" alt="logo CIFOR">
-                    <div class="Titulo-Donar"><h1>“Tu donación crea oportunidades. ¡Sumate al cambio!”</h1></div>
-                    <div class="Sub-Titulo"><h2>Apadriná un estudiante</h2></div>
+                    <div class="Titulo-Donar"><h1 class="h1-">“Tu donación crea oportunidades. ¡Sumate al cambio!”</h1></div>
+                    <div class="Sub-Titulo"><h2 class="h2-">Apadriná un estudiante</h2></div>
                     <p class="Parafo-Donar">1 de cada 4 jóvenes provenientes del área rural en el país no acceden a educación secundaria. Apadrinar a un estudiante con el aporte de $70.000 por mes nos ayudas a que los estudiantes puedan acceder a  material didáctico de avanzada, que las herramientas y espacios de  aprendizaje productivo en óptimas condiciones de seguridad e higiene, y  que las aulas y residencias sean cómodas, cuidados y acogedores.</p>
                 </div>
             </section>
@@ -59,22 +57,22 @@
                 <div class="Form-Donar">
                     <div class="Form-Titulo-Donar"><h3>Elegi tu aporte</h3></div>
                     <div class="button-Donacion">
-                        <input type="button" value="$70000 1 alumno">
-                        <input type="button" value="$140000 1 alumno">
-                        <input type="button" value="$210000 1 alumno">
-                        <input type="button" value="$280000 1 alumno">
+                        <input class="button-Donacion-1" type="button" value="$70000 1 alumno">
+                        <input class="button-Donacion-2" type="button" value="$140000 2 alumno">
+                        <input class="button-Donacion-3" type="button" value="$210000 3 alumno">
+                        <input class="button-Donacion-4" type="button" value="$280000 4 alumno">
                     </div>
                     <div class="Datos-Donar">
                         <div class="Titulo-Datos-Donar"><h3>Tus Datos</h3></div>
-                        <input class="button-Datos-Name">Nombre:</input>
-                        <input class="button-Datos-MiddleName">Apellido:</input>
-                        <input class="button-Datos-Email">Email:</input>
-                        <input class="button-Datos-DNI">DNI:</input>
-                        <div><p>Fecha de nacimiento</p></div>
-                        <div class="Fecha-Nacimiento"><p>Mes</p><p>Día</p><p>Año</p><input type="date" name="Nacimiento" id="Nacimiento"></div>
-                        <div><input class="button-Datos-Numero">Numero:</input></div>
-                        <div><p>Localida</p><input type="text" name="Localida" id="Localida"></div>
-                        <div><p>Provincia</p><input type="text" name="Provincia" id="Provincia"></div>                                                                                           
+                        <input class="button-Datos-Name" type="text" placeholder="Nombre" name="name" id="name" required>
+                        <input class="button-Datos-MiddleName" type="text"placeholder="Apellido" name="Apellido" id="Apellido"required>
+                        <input class="button-Datos-Email" type="email"placeholder="usuario@gmail.com" name="Email" id="Email"required>
+                        <input class="button-Datos-DNI" type="tel"placeholder="DNI:1138XXXXXX" name="DNI" id="DNI"required>                        
+                        <p class="Fecha-Nacimiento">Fecha de nacimiento</p>
+                        <input class="Fecha" type="date"name="Nacimiento" id="Nacimiento">
+                        <input class="button-Datos-Numero" type="tel" placeholder="Tel:1138XXXXXX" name="Numero" id="Numero"required>                      
+                        <p class="Localida">Localida</p><input type="text" name="Localida" id="Localida">    
+                        <p class="Provincia">Provincia</p><input type="text" name="Provincia" id="Provincia">                                                                                           
                     </div>
                     <div class="Pago">
                         <div class="Titulo-Pago"><h3>Metodo De Pago</h3></div>
