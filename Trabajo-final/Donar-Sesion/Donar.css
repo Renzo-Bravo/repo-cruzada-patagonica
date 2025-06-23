@@ -2,7 +2,7 @@ body{
     background-color: white;
 }
 .logo-CIFOR{
-    width: 350px;
+    width: 380px;
     align-content: center;
     display: flex;
     flex-direction: row;
@@ -19,14 +19,14 @@ position: absolute;
 width: 282px;
 height: 89px;
 right: 200px;
-background: scroll;
+ 
 }
 .Mucha-Gracias{
     position: absolute;
     width: 430px;
     height: 46px;
     left: 0px;
-    top: 1550px;
+    top: 1450px;
     background-size: cover;
 }
 article{
@@ -54,7 +54,6 @@ position: absolute;
 width: 282px;
 height: 89px;
 left: calc(50% - 271px/2 + 68.5px);
-top: 345px;
 font-family: 'Inria Serif';
 font-style: normal;
 font-weight: 400;
@@ -73,7 +72,7 @@ position: absolute;
 width: 138px;
 height: 31px;
 left: calc(50% - 138px/2 + 3px);
-top: 469px;
+top: 400px;
 
 font-family: 'Inria Serif';
 font-style: normal;
@@ -91,13 +90,11 @@ color: #000000;
 
 }
 .Parafo-Donar {
-/* 1 de cada 4 jóvenes provenientes del área rural en el país no  acceden a educación secundaria.  Apadrinar a un estudiante con  el aporte de $70.000 por mes nos ayudas a que los estudiantes puedan acceder a material didáctico de avanzada, que las herramientas y espacios de aprendizaje productivo en óptimas condiciones de seguridad e higiene, y que las aulas y residencias sean cómodas, cuidados y acogedores. */
-
 position: absolute;
 width: 375px;
 height: 161px;
 left: calc(50% - 375px/2 + 3.5px);
-top: 519px;
+top: 445px;
 
 font-family: 'Inria Serif';
 font-style: normal;
@@ -131,7 +128,7 @@ width: 376px;
 height: 40px;
 min-height: 24px;
 left: 31px;
-top: 703px;
+top: 620px;
 
 background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -152,7 +149,7 @@ width: 184px;
 height: 40px;
 min-height: 24px;
 left: 31px;
-top: 752px;
+top: 675px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -175,7 +172,7 @@ width: 184px;
 height: 40px;
 min-height: 24px;
 left: 222px;
-top: 752px;
+top: 675px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -197,7 +194,7 @@ width: 184px;
 height: 40px;
 min-height: 24px;
 left: 32px;
-top: 801px;
+top: 725px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -216,7 +213,7 @@ width: 184px;
 height: 40px;
 min-height: 24px;
 left: 221px;
-top: 801px;
+top: 725px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -240,7 +237,7 @@ width: 376px;
 height: 40px;
 min-height: 24px;
 left: 29px;
-top: 858px;
+top: 780px;
 
 background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -261,7 +258,7 @@ width: 158px;
 height: 34px;
 min-height: 24px;
 left: 30px;
-top: 915px;
+top: 830px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -281,7 +278,7 @@ width: 160px;
 height: 34px;
 min-height: 24px;
 left: 247px;
-top: 915px;
+top: 830px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -301,7 +298,7 @@ width: 378px;
 height: 37px;
 min-height: 24px;
 left: 29px;
-top: 963px;
+top: 875px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -321,7 +318,7 @@ width: 378px;
 height: 37px;
 min-height: 24px;
 left: 29px;
-top: 1014px;
+top: 923px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -333,7 +330,7 @@ text-align: center;
     width: 270px;
     height: 11px;
     
-    top: 1064px;
+    top: 965px;
     font-family: 'Inria Serif';
     font-style: normal;
     font-weight: 400;
@@ -347,7 +344,7 @@ position: absolute;
 width: 376px;
 height: 47px;
 left: 30px;
-top: 1084px;
+top: 985px;
 opacity: 0.85;
 font-size: xx-large;
 align-items: center;
@@ -366,7 +363,7 @@ width: 378px;
 height: 36px;
 min-height: 24px;
 left: 27px;
-top: 1140px;
+top: 1040px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -387,7 +384,7 @@ position: absolute;
 width: 376px;
 height: 41px;
 left: 27px;
-top : 1190px;
+top : 1090px;
 
 background: rgba(196, 196, 196, 0.44);
 border: 1.5966px solid rgba(66, 80, 102, 0.4);
@@ -408,7 +405,7 @@ border-radius: 30px;
     width: 376px;
     height: 41px;
     left: 27px;
-    top : 1245px;
+    top : 1145px;
 
     background: rgba(196, 196, 196, 0.44);
     border: 1.5966px solid rgba(66, 80, 102, 0.4);
@@ -431,7 +428,7 @@ width: 376px;
 height: 36px;
 min-height: 24px;
 left: 26px;
-top: 1300px;
+top: 1200px;
 
 background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -453,7 +450,7 @@ width: 177px;
 height: 36px;
 min-height: 24px;
 left: 23px;
-top: 1350px;
+top: 1250px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -474,7 +471,7 @@ width: 177px;
 height: 36px;
 min-height: 24px;
 left: 221px;
-top: 1350px;
+top: 1250px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -494,7 +491,7 @@ border-radius: 30px;
     height: 54px;
     min-height: 24px;
     left: calc(50% - 116px/2 - 5px);
-    top: 1400px;
+    top: 1300px;
 
     background: rgba(196, 196, 196, 0.44);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -513,7 +510,7 @@ position: absolute;
 width: 16px;
 height: 15px;
 left: calc(50% - 16px/2 - 136px);
-top: 1480px;
+top: 1365px;
 
 background: rgba(255, 255, 255, 0.85);
 border: 1px solid #FF0000;
@@ -528,7 +525,7 @@ border-radius: 4px;
     width: 271px;
     height: 32px;
     left: calc(50% - 271px/2 + 1.5px);
-    top: 1480px;
+    top: 1365px;
 
     font-family: 'Roboto';
     font-style: normal;
