@@ -14,9 +14,10 @@ header{
     background-color: var(--color-primario);
     height:var(--altura-header);
     font-family: 'Inria Serif';
-    font-family: 'Inria Serif';   
     position: sticky;
     top: 0;
+    z-index: 10000;
+    
     
 }
 a{
@@ -77,10 +78,13 @@ ul{
     transition: all.3s;
 }
 .link {
-    font-size: 4.5rem;
+    font-size: 24px;
     color:black;
     font-weight: normal;
     margin: 2px;
+    background-color: #A19A9A;
+    border-radius: 30px;
+    padding: 2px;
 }
 .li-link{
     padding: 2px;
