@@ -2,6 +2,13 @@
   font-family: "Inria Serif", serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+}
+
+.mainTitle {
+  text-align: center;
+  font-size: larger;
+  margin: 5%;
 }
 
 form {
