@@ -15,10 +15,13 @@ body{
 
 }
 .Titulo-img{
-position: absolute;
-width: 282px;
-height: 89px;
-right: 200px;
+/* position: absolute; */
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 282px;
+    height: 89px;
+    right: 200px;
  
 }
 .Mucha-Gracias{
@@ -32,35 +35,36 @@ right: 200px;
 article{
     font-family: 'Inria Serif';
     font-style: normal;
+    align-content: center;
 }
 .Donar-info {
 text-align: center;
-
+align-content: center;
+}
+.split-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
 }
 .Titulo-Donar {
-
-display: flex;
-flex-direction: column;
+display: grid;
+grid-column: 2 / 4;
+grid-row: 1 / 3;
 justify-content: center;
 align-items: center;
 padding: 4px 8px;
 gap: 10px;
-position: absolute;
 min-height: 24px;
 background: #A19A9A;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 border-radius: 100px 0px 0px 100px;
-position: absolute;
 width: 282px;
 height: 89px;
-left: calc(50% - 271px/2 + 68.5px);
 font-family: 'Inria Serif';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 30px;
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: -0.08px;
 color: #000000;
@@ -90,50 +94,47 @@ color: #000000;
 
 }
 .Parafo-Donar {
-position: absolute;
-width: 375px;
-height: 161px;
-left: calc(50% - 375px/2 + 3.5px);
-top: 445px;
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 161px;
+    
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
 
-font-family: 'Inria Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-/* o 107% */
-display: flex;
-align-items: center;
-text-align: justify;
-letter-spacing: 0.4px;
-
-color: #000000;
-text-align: center;
+    color: #000000;
+    text-align: center;
 
 }
 .Form-Donar {
 text-align: center;
+align-content: center;
+align-items: center;
 }
 .Form-Titulo-Donar {
-text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
 
-position: absolute;
-width: 376px;
-height: 40px;
-min-height: 24px;
-left: 31px;
-top: 620px;
 
-background: #B7312C;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-color: #ffffff;
+    width: 87%;
+    height: 40px;
+    min-height: 24px;
+    margin: 5%;
+    margin-top: 0;
+    margin-left: 7%;
+
+    background: #B7312C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: #ffffff;
 
 }
 .button-Donacion-1 {
@@ -223,6 +224,7 @@ border-radius: 30px;
 }
 .Datos-Donar {
 text-align: center;
+align-content: center;
 }
 .Titulo-Datos-Donar {
 display: flex;
@@ -414,6 +416,8 @@ border-radius: 30px;
 }
 .Pago {
 text-align: center;
+align-content: center;
+align-items: center;
 }
 .Titulo-Pago {
 display: flex;
@@ -557,6 +561,9 @@ header{
     background-color: var(--color-primario);
     height:var(--altura-header);
     font-family: 'Inria Serif';
+    position: sticky;
+    top: 0;
+    z-index: 10000;
     
     
 }
@@ -588,15 +595,16 @@ ul{
     z-index: 9999;
 }
 .logo-en-blanco{
-    width: 100px;
+    width: 150px;
     height: 100px;
-    margin:10px;
-    margin-bottom: 50px;
+    margin:12px;
+    margin-bottom: 15px;
 
 }
 .list_icon {
     color:white;
     cursor:pointer;
+    width: 50px;
 }
 .ul-link {
     width: 250px;

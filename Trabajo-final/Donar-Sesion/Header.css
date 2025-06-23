@@ -14,7 +14,9 @@ header{
     background-color: var(--color-primario);
     height:var(--altura-header);
     font-family: 'Inria Serif';
-    
+    font-family: 'Inria Serif';   
+    position: sticky;
+    top: 0;
     
 }
 a{
@@ -41,23 +43,25 @@ ul{
     display: none;
 }
 .menu:checked + .ul-link{
-    height:calc(100vh - var(--altura-header));
+    height: 350px;
+    z-index: 9999;
 }
 .logo-en-blanco{
-    width: 100px;
+    width: 150px;
     height: 100px;
-    margin:10px;
-    margin-bottom: 50px;
+    margin:12px;
+    margin-bottom: 15px;
 
 }
 .list_icon {
     color:white;
     cursor:pointer;
+    width: 50px;
 }
 .ul-link {
-    width: 100%;
+    width: 250px;
     position: absolute;
-    background-color: rgba(182, 176, 176, 0.691);
+    background-color: rgba(182, 176, 176, 0.87);
     top: var(--altura-header);
     height:0;
     left: 0;
@@ -72,14 +76,16 @@ ul{
 
     transition: all.3s;
 }
-
 .link {
     font-size: 4.5rem;
     color:black;
     font-weight: normal;
     margin: 2px;
 }
-
+.li-link{
+    padding: 2px;
+    width: 150px;
+}
 @media(min-width:768px){
 .label-menu {
     display: none;
