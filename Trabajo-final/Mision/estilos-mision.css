@@ -416,7 +416,7 @@ body {
     height: 180px;
     border-radius: 0 60px 60px 0;
   }
-    .contenedor-titulo {
+  .contenedor-titulo {
     width: 100%;
   }
 
@@ -456,7 +456,7 @@ body {
 
 }
 
-@media (max-width: 519px){
+@media (max-width: 520px){
   .nuestra-mision h1 {
     font-size: 1.8rem;
     padding: 11% 6%;
@@ -465,6 +465,106 @@ body {
     border-radius: 0 60px 60px 0;
   }
 
+
+  .contenedor-titulo h2 {
+    font-size: 2rem;
+    width: 70%;
+    padding: 13px 10% 2% 2%;
+  }
+
+  .contenedor-titulo img {
+    position: absolute;
+    top: 74px; /* Ajusta según necesites */
+    right: 0%;
+    transform: translateX(-0%);
+    width: 400px; /* Ajustable */
+    z-index: 0; /* Por detrás del texto */
+  }
+  .contenedor-instituciones img {
+    position: absolute;
+    top: 77px; /* Ajusta según necesites */
+    right: 0%;
+    transform: translateX(-0%);
+    width: 400px; /* Ajustable */
+    z-index: 0; /* Por detrás del texto */
+  }
+
+}
+@media (max-width: 500px){
+  .nuestra-mision h1 {
+    font-size: 1.8rem;
+    padding: 12% 3%;
+    width: 58%;
+    height: 160px;
+    border-radius: 0 60px 60px 0;
+  }
+  .contenedor-titulo img{
+    top: 78px;
+    width: 350px;
+  }
+  .contenedor-instituciones img{
+    top: 79px;
+    width: 350px;
+  }
+}
+@media (max-width: 440px){
+  .nuestra-mision h1 {
+    font-size: 1.5rem;
+    padding: 10% 3%;
+    width: 59%;
+    height: 130px;
+    border-radius: 0 60px 60px 0;
+  }
+  .contenedor-titulo h2 {
+    font-size: 1.5rem;
+    width: 70%;
+    padding: 13px 10% 3% 2%;
+  }
+  .contenedor-titulo img{
+    top: 69px;
+    width: 320px;
+  }
+  .contenedor-instituciones h2 {
+    font-size: 1.5rem;
+    width: 70%;
+    padding: 13px 10% 3% 16%;
+  }
+  .contenedor-instituciones img{
+    top: 69px;
+    width: 320px;
+  }
+  .nuestra-vision p {
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 50px 40px 0px 30px;
+  }
+
+  .instituciones p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px;
+  }
+  .nuestra-mision p{
+    font-size: 1.2rem;
+    margin: 0px 25px 0px 50px;
+  }
+}
+@media (max-width: 400px){
+  .nuestra-mision h1 {
+    font-size: 1.5rem;
+    padding: 12% 3%;
+    width: 60%;
+    height: 130px;
+    border-radius: 0 60px 60px 0;
+  }
+  .contenedor-instituciones img{
+    top: 70px;
+    width: 300px;
+  }
+  .contenedor-titulo img{
+    top: 70px;
+    width: 300px;
+  }  
 }
 
 /*Header Css*/
