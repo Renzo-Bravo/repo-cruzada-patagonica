@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cruzada Patagónica</title>
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -45,69 +45,78 @@
                 </li>
             </ul>
         
-        </nav>
-    </header> <!--header de toda la pagina-->
-
+            </nav>
+        </header> <!--header de toda la pagina-->
+    
         <article>
             <section class="mainTitle">
                 <h1>Educación que transforma vidas rurales</h1>
+                <img src="./img/IMG_6846.jpg" alt="Patagonia Argentina">
             </section>
-
+            
             <section class="about">
                 <h2>¿Quiénes somos?</h2>
                 <p>En Cruzada Patagónica, transformamos vidas a través de la construcción y gestión de escuelas rurales. Cada escuela es un espacio de aprendizaje, innovación y comunidad.
+                <br>
                 <br>
                 Actualmente gestionamos tres escuelas secundarias agrotécnicas gratuitas con residencias estudiantiles en las provincias de Neuquén, Chubut y Río Negro, brindando educación integral a jóvenes de parajes rurales.
                 </p>
                 <button type="button">Información institucional</button>
             </section>
-            
+                
             <section class="challenges">
-                <img src="./" alt="Patagonia Argentina">
+                <img src="./img/Diseno-sin-titulo8.png" alt="Elemento de diseño de página">
                 <h2>¿Qué desafíos enfrentamos?</h2>
                 <p>En Argentina, 1 de cada 4 jóvenes de áreas rurales no tiene acceso a la educación secundaria. Las distancias, la falta de recursos y la ausencia de infraestructura son barreras que perpetúan la desigualdad. Cruzada Patagónica trabaja para derribar estos obstáculos, construyendo un futuro donde todos tengan acceso a la educación.”</p>
                 
                 <h2>¿Cómo podés ayudar?</h2>
                 <h3>APADRINA A UN ESTUDIANTE</h3>
                 <p>1 de cada 4 jóvenes no puede acceder a la educación por diferentes motivos, sea económico o por trabajo. Con un aporte de $70.000 nos ayudarías a brindar los materiales y herramientas necesarias para que puedan aprender y educarse, así como espacios acogedores donde puedan soltarse y crecer. ¡Sé parte del cambio!</p>
-
+                
                 <h3>SUMATE COMO AMIGO DE LA CRUZADA</h3>
                 <p>La educación transforma vidas, las cambia y las potencia a averiguar más de ella. Sumate como amigo de la cruzada y apoyá nuestros proyectos educativos donando materiales de estudio. Cada aporte, sea pequeño o grande, hace la diferencia.</p>
-
+                
                 <h3>DONACIÓN POR ÚNICA VEZ</h3>
                 <p>"Cada aporte cuenta, por pequeño o grande que sea, nos ayuda a seguir adelante porque nos dice que las personas creen en los chicos y en la educación que puede cambiar sus vidas. Pueden ser el motor de alguien para su educación."</p>
                 <button type="button">Apoyanos con tu donación</button>
             </section>
         </article>
+        
+        <div class="finalImage">
+            <img src="./img/Guardapampaentera.png" alt="Elemento de diseño de página">
+        </div>
+    
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="logo-section">
+                    <img src="./img/LOGO EN BLANCO SINFONDO.png" alt="FCP Logo" class="logo">
+                </div>
+                <div class="logo-text">
+                    <p>Fundación Cruzada Patagónica<br>Junín de los Andes, Neuquén<br>Argentina, Desde 1979.</p>
+                </div>
 
-        <article>
-            <section>
-                <!-- Acá puede ir el form para diferenciarlo de la descripción de la fundación-->
-                 <footer>
-                     <h2>Dejanos un mensaje</h2>
-                     <form action="#" method="post">
-                        <label for="name">Nombre:</label>
-                        <input type="text" name="name" placeholder="Ingresa tu nombre" id="name" required>
+                <div class="social-section">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/CruzadaPatagonica" target="_blank"><img src="img/footer-img/youtube.png" alt="YouTube" class="social-icon"></a>
+                        <a href="https://www.facebook.com/fundacioncruzadapatagonica/" target="_blank"><img src="img/footer-img/facebook.png" alt="Facebook" class="social-icon"></a>
+                        <a href="https://www.instagram.com/cruzadapatagonica/#" target="_blank"><img src="img/footer-img/instagram.png" alt="Instagram" class="social-icon"></a>
+                        <a href="https://api.whatsapp.com/send/?phone=5492944536993&text=Hola+te+escribo+desde+la+web+&type=phone_number&app_absent=0" target="_blank"><img src="img/footer-img/whatsapp.png" alt="WhatsApp" class="social-icon"></a>
+                    </div>
+                </div>
 
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" placeholder="usuario@gmail.com" id="email" required>
-                    
-                        <label for="telephone">Teléfono:</label>
-                        <input type="tel" name="telephone" placeholder="1138XXXXXX" id="telephone" required>
+            </div>
 
-                        <label for="message">Mensaje</label>
-                        <textarea name="message" id="message" maxlength="250"></textarea>
-
-                        <div id="button">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </form>
-                </footer>
-            </section>
-        </article>
-
-        <footer>
-            <!--footer de toda la pagina-->
+            <div class="footer-bottom">
+                <div class="links">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Divulgaciones estatales</a>
+                <a href="#">Declaración de Accesibilidad</a>
+                <a href="#">Preferencias de Cookies</a>
+                </div>
+                <p>Fundación Cruzada Patagónica ©- Todos los derechos reservados | Realizado por Puerta 18</p>
+            </div>
         </footer>
     </main>
 </body>
