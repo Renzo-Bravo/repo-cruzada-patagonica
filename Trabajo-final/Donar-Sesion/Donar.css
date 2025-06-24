@@ -1,0 +1,661 @@
+body{
+    background-color: white;
+    z-index: 1;
+}
+.logo-CIFOR{
+    width: 380px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.Logo-Tira{
+    width: 100%;
+    align-content: center;
+    padding: 4px;
+    padding-top: 8px;
+
+}
+.Titulo-img{
+/* position: absolute; */
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 282px;
+    height: 89px;
+    right: 200px;
+ 
+}
+.Mucha-Gracias{
+    position: absolute;
+    width: 430px;
+    height: 46px;
+    left: 0px;
+    top: 1450px;
+    background-size: cover;
+}
+article{
+    font-family: 'Inria Serif';
+    font-style: normal;
+    align-content: center;
+}
+.Donar-info {
+text-align: center;
+align-content: center;
+}
+.split-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+.Titulo-Donar {
+display: grid;
+grid-column: 2 / 4;
+grid-row: 1 / 3;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+min-height: 24px;
+background: #A19A9A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 100px 0px 0px 100px;
+width: 282px;
+height: 89px;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: -0.08px;
+color: #000000;
+}
+.Sub-Titulo {
+/* Apadriná un estudiante */
+
+position: absolute;
+width: 138px;
+height: 31px;
+left: calc(50% - 138px/2 + 3px);
+top: 400px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* o 90% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.08px;
+
+color: #000000;
+
+
+}
+.Parafo-Donar {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 161px;
+    
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+
+    color: #000000;
+    text-align: center;
+
+}
+.Form-Donar {
+text-align: center;
+align-content: center;
+align-items: center;
+}
+.Form-Titulo-Donar {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 87%;
+    height: 40px;
+    min-height: 24px;
+    margin: 5%;
+    margin-top: 0;
+    margin-left: 7%;
+    margin-bottom: 10px;
+    background: #B7312C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: #ffffff;
+
+}
+.button-Donacion{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 0;
+
+}
+.button-Donacion-1 {
+    display: grid;
+    grid-column:  1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.button-Donacion-2 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.button-Donacion-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.button-Donacion-4 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+
+
+}
+.Datos-Donar {
+text-align: center;
+align-content: center;
+}
+.Nombre-Apellido-Donar{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 7%;
+    margin-top: 2%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+
+}
+.Correo-DNI-Donar{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    gap: 10px;
+}
+.Titulo-Datos-Donar {
+display: grid;
+grid-template-columns: auto;
+margin: 20%;
+margin-left: 7%;
+margin-bottom: 0;
+margin-top: 10px;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+
+width: 376px;
+height: 40px;
+min-height: 24px;
+
+background: #B7312C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
+color: #ffffff;
+}
+.button-Datos-Name {
+display: grid;
+grid-column: 1;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+
+width: 160px;
+height: 34px;
+min-height: 24px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
+}
+.button-Datos-MiddleName {
+display: grid;
+grid-column: 3;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+width: 160px;
+height: 34px;
+min-height: 24px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
+}
+.button-Datos-Email {
+    align-items: center;
+    padding: 4px 8px;
+    width: 378px;
+    height: 37px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
+}
+.button-Datos-DNI {
+    align-items: center;
+    padding: 4px 8px;
+    width: 378px;
+    height: 37px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
+}
+.Fecha-Nacimiento {
+    position: absolute;
+    width: 270px;
+    height: 11px;
+    
+    top: 965px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000; 
+}
+.Fecha{
+    justify-content: center;
+position: absolute;
+width: 376px;
+height: 47px;
+left: 30px;
+top: 985px;
+opacity: 0.85;
+font-size: xx-large;
+align-items: center;
+
+}
+.button-Datos-Numero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 378px;
+height: 36px;
+min-height: 24px;
+left: 27px;
+top: 1040px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
+
+}
+.inp-localida{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 19.1592px;
+gap: 9.58px;
+
+position: absolute;
+width: 376px;
+height: 41px;
+left: 27px;
+top : 1090px;
+
+background: rgba(196, 196, 196, 0.44);
+border: 1.5966px solid rgba(66, 80, 102, 0.4);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+}
+.inp-provincia{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 19.1592px;
+    gap: 9.58px;
+
+    position: absolute;
+    width: 376px;
+    height: 41px;
+    left: 27px;
+    top : 1145px;
+
+    background: rgba(196, 196, 196, 0.44);
+    border: 1.5966px solid rgba(66, 80, 102, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.Pago {
+text-align: center;
+align-content: center;
+align-items: center;
+}
+.Titulo-Pago {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 376px;
+height: 36px;
+min-height: 24px;
+left: 26px;
+top: 1200px;
+
+background: #B7312C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+text-align: center;
+color: #ffffff;
+}
+.Metodo-Pago-1 {
+  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 177px;
+height: 36px;
+min-height: 24px;
+left: 23px;
+top: 1250px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+}
+.Metodo-Pago-2{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 177px;
+height: 36px;
+min-height: 24px;
+left: 221px;
+top: 1250px;
+
+background: rgba(196, 196, 196, 0.44);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+
+}
+.Donar-Hoy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 116px;
+    height: 54px;
+    min-height: 24px;
+    left: calc(50% - 116px/2 - 5px);
+    top: 1300px;
+
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+
+}
+.Terminos {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 2px;
+gap: 10px;
+
+position: absolute;
+width: 16px;
+height: 15px;
+left: calc(50% - 16px/2 - 136px);
+top: 1365px;
+
+background: rgba(255, 255, 255, 0.85);
+border: 1px solid #FF0000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+
+
+
+}
+.Terminos-text {
+    position: absolute;
+    width: 271px;
+    height: 32px;
+    left: calc(50% - 271px/2 + 1.5px);
+    top: 1365px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+
+    color: #006FFF;
+
+ 
+}
+/*Header Css*/
+:root{
+    --altura-header:124px;
+    --color-primario:rgb(183, 49, 44);
+    --color-secundario:rgb(182, 176, 176);
+    --padding-left-right:2rem;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--color-primario);
+    height:var(--altura-header);
+    font-family: 'Inria Serif';
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+    
+}
+a{
+    text-decoration: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color:black;
+}
+ul{
+    list-style: none;
+    width: 1500px;
+}
+.barra {
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 var(--padding-left-right);
+}
+.menu{
+    display: none;
+}
+.menu:checked + .ul-link{
+    height: 350px;
+    z-index: 9999;
+}
+.logo-en-blanco{
+    width: 150px;
+    height: 100px;
+    margin:12px;
+    margin-bottom: 15px;
+
+}
+.list_icon {
+    color:white;
+    cursor:pointer;
+    width: 50px;
+}
+.ul-link {
+    width: 250px;
+    position: absolute;
+    background-color: rgba(182, 176, 176, 0.87);
+    top: var(--altura-header);
+    height:0;
+    left: 0;
+    overflow: hidden;
+    /*height: calc(100vh - var(--altura-header));*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    border-radius: 30px;
+
+    transition: all.3s;
+}
+.link {
+    font-size: 24px;
+    color:black;
+    font-weight: normal;
+    margin: 2px;
+    background-color: #A19A9A;
+    border-radius: 30px;
+    padding: 2px;
+}
+.li-link{
+    padding: 2px;
+    width: 150px;
+}
+@media(min-width:768px){
+.label-menu {
+    display: none;
+}
+.ul-link {
+    position: static;
+    width: 70%;
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+}
+.link {
+    font-size: 1.2rem;
+    transition: all .3s;
+    padding: .2rem .7rem;
+}
+.link:hover{
+    background-color: rgba(183, 49, 44, 0.726);
+    border-radius: 30px;
+    font-weight: bold;
+          
+}      
+}
+@media(min-width:900px){
+   .label-menu {
+    display: none;
+}
+.ul-link {
+    position: static;
+    width: 600px;
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+}
+.link {
+    font-size: 1.2rem;
+    transition: all .3s;
+    padding: .2rem .7rem;
+}
+.link:hover{
+    background-color: rgba(183, 49, 44, 0.726);
+    border-radius: 30px;
+    font-weight: bold;
+          
+}   
+}

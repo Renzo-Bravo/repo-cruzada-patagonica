@@ -5,7 +5,11 @@
     --color-secundario:rgb(182, 176, 176);
     --padding-left-right:2rem;
 }
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 header{
     background-color: var(--color-primario);
     height:var(--altura-header);
@@ -13,6 +17,9 @@ header{
     position: sticky;
     top: 0;
     z-index: 10000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+    
 }
 a{
     text-decoration: none;
