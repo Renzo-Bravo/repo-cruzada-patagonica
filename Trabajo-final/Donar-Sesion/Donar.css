@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    z-index: 1;
 }
 .logo-CIFOR{
     width: 380px;
@@ -8,7 +9,7 @@ body{
     flex-direction: row;
 }
 .Logo-Tira{
-    width: 430px;
+    width: 100%;
     align-content: center;
     padding: 4px;
     padding-top: 8px;
@@ -122,103 +123,81 @@ align-items: center;
     align-items: center;
     padding: 4px 8px;
     gap: 10px;
-
-
     width: 87%;
     height: 40px;
     min-height: 24px;
     margin: 5%;
     margin-top: 0;
     margin-left: 7%;
-
+    margin-bottom: 10px;
     background: #B7312C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     color: #ffffff;
 
 }
+.button-Donacion{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 0;
+
+}
 .button-Donacion-1 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 184px;
-height: 40px;
-min-height: 24px;
-left: 31px;
-top: 675px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-
-
-
+    display: grid;
+    grid-column:  1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 }
 .button-Donacion-2 {
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 184px;
-height: 40px;
-min-height: 24px;
-left: 222px;
-top: 675px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-
-
-
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 }
 .button-Donacion-3 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 184px;
-height: 40px;
-min-height: 24px;
-left: 32px;
-top: 725px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 }
 .button-Donacion-4 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 184px;
-height: 40px;
-min-height: 24px;
-left: 221px;
-top: 725px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 184px;
+    height: 40px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 
 
 }
@@ -226,20 +205,39 @@ border-radius: 30px;
 text-align: center;
 align-content: center;
 }
+.Nombre-Apellido-Donar{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 7%;
+    margin-top: 2%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+
+}
+.Correo-DNI-Donar{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    gap: 10px;
+}
 .Titulo-Datos-Donar {
-display: flex;
-flex-direction: column;
+display: grid;
+grid-template-columns: auto;
+margin: 20%;
+margin-left: 7%;
+margin-bottom: 0;
+margin-top: 10px;
 justify-content: center;
 align-items: center;
 padding: 4px 8px;
 gap: 10px;
 
-position: absolute;
+
 width: 376px;
 height: 40px;
 min-height: 24px;
-left: 29px;
-top: 780px;
 
 background: #B7312C;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -248,19 +246,17 @@ text-align: center;
 color: #ffffff;
 }
 .button-Datos-Name {
-display: flex;
-flex-direction: column;
+display: grid;
+grid-column: 1;
 justify-content: center;
 align-items: center;
 padding: 4px 8px;
 gap: 10px;
 
-position: absolute;
-width: 158px;
+
+width: 160px;
 height: 34px;
 min-height: 24px;
-left: 30px;
-top: 830px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -268,19 +264,16 @@ border-radius: 30px;
 text-align: center;
 }
 .button-Datos-MiddleName {
-display: flex;
-flex-direction: column;
+display: grid;
+grid-column: 3;
 justify-content: center;
 align-items: center;
 padding: 4px 8px;
 gap: 10px;
 
-position: absolute;
 width: 160px;
 height: 34px;
 min-height: 24px;
-left: 247px;
-top: 830px;
 
 background: rgba(196, 196, 196, 0.44);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -288,44 +281,26 @@ border-radius: 30px;
 text-align: center;
 }
 .button-Datos-Email {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 378px;
-height: 37px;
-min-height: 24px;
-left: 29px;
-top: 875px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-text-align: center;
+    align-items: center;
+    padding: 4px 8px;
+    width: 378px;
+    height: 37px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
 }
 .button-Datos-DNI {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 378px;
-height: 37px;
-min-height: 24px;
-left: 29px;
-top: 923px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-text-align: center;
+    align-items: center;
+    padding: 4px 8px;
+    width: 378px;
+    height: 37px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
 }
 .Fecha-Nacimiento {
     position: absolute;
@@ -564,6 +539,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 10000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     
     
 }
@@ -643,7 +619,7 @@ ul{
 }
 .ul-link {
     position: static;
-    width: auto;
+    width: 70%;
     height: auto;
     flex-direction: row;
     gap: 1rem;
@@ -659,4 +635,27 @@ ul{
     font-weight: bold;
           
 }      
+}
+@media(min-width:900px){
+   .label-menu {
+    display: none;
+}
+.ul-link {
+    position: static;
+    width: 600px;
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+}
+.link {
+    font-size: 1.2rem;
+    transition: all .3s;
+    padding: .2rem .7rem;
+}
+.link:hover{
+    background-color: rgba(183, 49, 44, 0.726);
+    border-radius: 30px;
+    font-weight: bold;
+          
+}   
 }
