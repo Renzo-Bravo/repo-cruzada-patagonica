@@ -423,10 +423,29 @@ body {
   .contenedor-titulo h2 {
     font-size: 2rem;
     width: 70%;
-    padding: 13px 30px;
+    padding: 13px 15% 2% 8%;
   }
 
   .contenedor-titulo img {
+    position: absolute;
+    top: 70px; /* Ajusta según necesites */
+    right: 0%;
+    transform: translateX(-0%);
+    width: 450px; /* Ajustable */
+    z-index: 0; /* Por detrás del texto */
+  }
+
+  .contenedor-instituciones {
+    width: 100%;
+  }
+
+  .contenedor-instituciones h2 {
+    font-size: 2rem;
+    width: 70%;
+    padding: 13px 15%;
+  }
+
+  .contenedor-instituciones img {
     position: absolute;
     top: 74px; /* Ajusta según necesites */
     right: 0%;
