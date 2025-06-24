@@ -35,14 +35,14 @@ body {
   color: #2c2c2c;
   background-color: #b7b2b2;
   text-align: center;
-  padding: 150px;
-  width: 50%;
+  padding: 10% 2%;
+  width: 53%;
   height: 400px;
   border-radius: 0 60px 60px 0;
 }
 
 .titulo_con_img {
-  background-image: url(campo-patagonia.png);
+  background-image: url(/Trabajo-final/img-instituciones/campo-patagonia.png);
   background-repeat: no-repeat;
   background-size: 54% 100%;
   background-position: 100%;
@@ -53,7 +53,7 @@ body {
 .nuestra-mision p {
   font-size: 2.1rem;
   text-align: end;
-  margin: 20px 30px 0px 860px;
+  margin: 20px 30px 0px 530px;
 }
 
 /* --- Sección Visión --- */
@@ -70,7 +70,7 @@ body {
 .nuestra-vision p {
   font-size: 2.1rem;
   text-align: start;
-  margin: 30px 660px 30px 20px;
+  margin: 30px 530px 30px 40px;
 }
 
 .mancha {
@@ -138,7 +138,7 @@ body {
 .instituciones p {
   font-size: 2.5rem;
   text-align: end;
-  margin: 40px 80px 0px 960px;
+  margin: 40px 80px 0px 390px;
 }
 
 /*imgenes socios*/
@@ -155,7 +155,7 @@ body {
 
 /* Estilo individual de cada logo */
 .instituciones-logos img {
-  width: 430px;
+  width: 230px;
   height: auto;
   object-fit: contain;
 }
@@ -165,13 +165,13 @@ body {
 }
 
 .dos-filas img {
-  width: 530px;
+  width: 330px;
   height: auto;
   object-fit: contain;
 }
 
 /* ---------- TABLETS (iPads) ---------- */
-@media screen and (max-width: 1024px) {
+@media(max-width: 1024px) {
   .img-divisor {
     width: 100%;
   }
@@ -293,7 +293,7 @@ body {
 }
 
 /* ---------- CELULARES (iPhones) ---------- */
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .img-divisor {
     width: 100%;
   }
