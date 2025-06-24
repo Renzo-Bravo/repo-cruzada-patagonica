@@ -291,6 +291,48 @@ body {
     object-fit: contain;
   }
 }
+@media (max-width: 720px) {
+    .nuestra-mision h1 {
+    font-size: 1.8rem;
+    padding: 10% 9%;
+    width: 55%;
+    height: 180px;
+    border-radius: 0 60px 60px 0;
+  }
+
+  .titulo_con_img {
+    display: flex;
+    margin-bottom: 40px;
+  }
+    .contenedor-titulo {
+    width: 100%;
+  }
+
+  .contenedor-titulo h2 {
+    font-size: 2rem;
+    width: 500px;
+    padding: 20px 100px;
+  }
+
+  .contenedor-titulo img {
+    position: absolute;
+    top: 76px; /* Ajusta según necesites */
+    right: 0%;
+    transform: translateX(-0%);
+    width: 580px; /* Ajustable */
+    z-index: 0; /* Por detrás del texto */
+  }
+
+}
+@media (max-width: 614px){
+  .nuestra-mision h1 {
+    font-size: 1.8rem;
+    padding: 11% 8%;
+    width: 55%;
+    height: 180px;
+    border-radius: 0 60px 60px 0;
+  }
+}
 
 /* ---------- CELULARES (iPhones) ---------- */
 @media (max-width: 600px) {
@@ -303,43 +345,49 @@ body {
     height: auto;
   }
 
+
   .nuestra-mision h1 {
-    font-size: 2rem;
-    padding: 60px 10px;
-    width: 100%;
-    border-radius: 0;
+    font-size: 1.8rem;
+    padding: 8% 8%;
+    width: 55%;
+    height: 140px;
+    border-radius: 0 60px 60px 0;
   }
 
   .titulo_con_img {
-    background-image: none;
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    margin-bottom: 40px;
   }
 
   .nuestra-mision p {
     font-size: 1.6rem;
-    text-align: justify;
-    margin: 20px;
+    text-align: right;
+    margin: 30px 50px 0px 40px;
   }
 
-  .nuestra-vision h2,
-  .instituciones h2 {
+  .contenedor-titulo {
+    width: 100%;
+  }
+
+  .contenedor-titulo h2 {
     font-size: 2rem;
-    padding: 10px 40px;
-    border-radius: 30px;
+    width: 500px;
+    padding: 20px 100px;
+  }
+
+  .contenedor-titulo img {
+    position: absolute;
+    top: 76px; /* Ajusta según necesites */
+    right: 0%;
+    transform: translateX(-0%);
+    width: 580px; /* Ajustable */
+    z-index: 0; /* Por detrás del texto */
   }
 
   .nuestra-vision p {
     font-size: 1.6rem;
-    margin: 20px;
-  }
-
-  .contenedor-titulo img,
-  .contenedor-instituciones img {
-    position: static;
-    width: 100%;
-    margin-top: 10px;
-    transform: none;
+    text-align: left;
+    margin: 50px 40px 0px 30px;
   }
 
   .instituciones p {
@@ -348,19 +396,58 @@ body {
     margin: 20px;
   }
 
-  .instituciones-logos,
-  .dos-filas {
-    flex-direction: column;
-    gap: 20px;
-    margin: 0 auto;
+}
+@media (max-width: 580px){
+  .nuestra-mision h1 {
+    font-size: 1.8rem;
+    padding: 11% 6%;
+    width: 55%;
+    height: 180px;
+    border-radius: 0 60px 60px 0;
   }
 
-  .instituciones-logos img,
-  .dos-filas img {
-    width: 90%;
-    margin: 0 auto;
-  }
 }
+
+@media (max-width: 531px){
+  .nuestra-mision h1 {
+    font-size: 1.8rem;
+    padding: 12% 7%;
+    width: 58%;
+    height: 180px;
+    border-radius: 0 60px 60px 0;
+  }
+    .contenedor-titulo {
+    width: 100%;
+  }
+
+  .contenedor-titulo h2 {
+    font-size: 2rem;
+    width: 70%;
+    padding: 13px 30px;
+  }
+
+  .contenedor-titulo img {
+    position: absolute;
+    top: 74px; /* Ajusta según necesites */
+    right: 0%;
+    transform: translateX(-0%);
+    width: 450px; /* Ajustable */
+    z-index: 0; /* Por detrás del texto */
+  }
+
+}
+
+@media (max-width: 519px){
+  .nuestra-mision h1 {
+    font-size: 1.8rem;
+    padding: 11% 6%;
+    width: 58%;
+    height: 160px;
+    border-radius: 0 60px 60px 0;
+  }
+
+}
+
 /*Header Css*/
 :root{
     --altura-header:124px;
