@@ -18,7 +18,9 @@ body {
 }
 
 .img-divisor {
-  width: 1900px;
+  width: 100%;
+  padding: 4px;
+  padding-top: 8px;
 }
 .img-rural {
   width: 50%;
