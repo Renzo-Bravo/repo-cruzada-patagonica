@@ -1,0 +1,115 @@
+.footer {
+  background-color: rgb(183, 49, 44);
+  padding: 30px;
+  color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-section img {
+  width: 150px;
+}
+
+.logo-text {
+  display: flex;
+  line-height: 1.5;
+  justify-content: center;
+}
+
+i {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 20px;
+}
+
+.social-section {
+  display: flex;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons img {
+  width: 48px;   /* Ajusta el tamaño que desees para tus iconos */
+  height: 48px;  /* Ajusta el tamaño que desees para tus iconos */
+  margin: 0 5px; /* Espacio entre los iconos */
+  vertical-align: middle; /* Ayuda a alinear si hay problemas con la altura de línea */
+}
+
+.social-section .social-icons a {
+    text-decoration: none;
+}
+
+.social-section, .social-icons, i {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.social-section .social-icons a:hover {
+  opacity: 0.8;
+}
+
+.text-section {
+  max-width: 400px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-bottom .links {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-bottom .links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-bottom .links a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom p {
+  font-size: 100%;
+}
+
+@media(max-width:768px) {
+  .logo-text {
+    display: none;
+  }
+  .text-section {
+    display: none;
+  }
+  .social-section p {
+    display: none;
+  }
+}
+
+
+
+
