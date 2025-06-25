@@ -44,7 +44,7 @@ body {
 }
 
 .titulo_con_img {
-  background-image: url(/Trabajo-final/img-instituciones/campo-patagonia.png);
+  background-image: url(../img-instituciones/campo-patagonia.png);
   background-repeat: no-repeat;
   background-size: 54% 100%;
   background-position: 100%;
