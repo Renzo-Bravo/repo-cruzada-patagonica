@@ -653,6 +653,10 @@ ul {
   width: 150px;
 }
 @media (min-width: 768px) {
+  .li-link {
+    padding: 2px;
+    width: 120px;
+  }
   .label-menu {
     display: none;
   }
@@ -675,6 +679,10 @@ ul {
   }
 }
 @media (min-width: 900px) {
+  .li-link {
+    padding: 2px;
+    width: 130px;
+  }
   .label-menu {
     display: none;
   }
