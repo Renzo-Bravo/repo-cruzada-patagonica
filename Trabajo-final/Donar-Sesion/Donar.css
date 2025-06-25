@@ -16,7 +16,6 @@ body{
 
 }
 .Titulo-img{
-/* position: absolute; */
     display: grid;
     grid-column: 1 / 3;
     grid-row: 1;
@@ -26,11 +25,10 @@ body{
  
 }
 .Mucha-Gracias{
-    position: absolute;
-    width: 430px;
-    height: 46px;
-    left: 0px;
-    top: 1450px;
+    display: grid;
+    margin: 0px;
+    width: 100%;
+    height: 25%;
     background-size: cover;
 }
 article{
@@ -71,26 +69,22 @@ letter-spacing: -0.08px;
 color: #000000;
 }
 .Sub-Titulo {
-/* Apadriná un estudiante */
+    position: absolute;
+    width: 138px;
+    height: 31px;
+    left: calc(50% - 138px/2 + 3px);
+    top: 400px;
 
-position: absolute;
-width: 138px;
-height: 31px;
-left: calc(50% - 138px/2 + 3px);
-top: 400px;
-
-font-family: 'Inria Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-/* o 90% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.08px;
-
-color: #000000;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.08px;
+    color: #000000;
 
 
 }
@@ -98,7 +92,7 @@ color: #000000;
     display: grid;
     grid-template-columns: auto;
     width: 100%;
-    height: 161px;
+    height: 120%;
     
     font-family: 'Inria Serif';
     font-style: normal;
@@ -127,13 +121,14 @@ align-items: center;
     height: 40px;
     min-height: 24px;
     margin: 5%;
-    margin-top: 0;
+    margin-top: 3%;
     margin-left: 7%;
     margin-bottom: 10px;
     background: #B7312C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     color: #ffffff;
+
 
 }
 .button-Donacion{
@@ -303,11 +298,14 @@ text-align: center;
     text-align: center;
 }
 .Fecha-Nacimiento {
-    position: absolute;
-    width: 270px;
-    height: 11px;
-    
-    top: 965px;
+    display: grid;
+    margin: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    align-items: center;
+    width: 130px;
+    height: 14px;
     font-family: 'Inria Serif';
     font-style: normal;
     font-weight: 400;
@@ -316,74 +314,65 @@ text-align: center;
     color: #000000; 
 }
 .Fecha{
-    justify-content: center;
-position: absolute;
-width: 376px;
-height: 47px;
-left: 30px;
-top: 985px;
-opacity: 0.85;
-font-size: xx-large;
-align-items: center;
+    display: grid;
+    margin: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 376px;
+    height: 47px;
+    opacity: 0.85;
+    font-size: xx-large;
+    align-items: center;
 
 }
 .button-Datos-Numero {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 378px;
-height: 36px;
-min-height: 24px;
-left: 27px;
-top: 1040px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-text-align: center;
+    display: grid;
+    margin: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 378px;
+    height: 36px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
 
 }
 .inp-localida{
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 19.1592px;
-gap: 9.58px;
-
-position: absolute;
-width: 376px;
-height: 41px;
-left: 27px;
-top : 1090px;
-
-background: rgba(196, 196, 196, 0.44);
-border: 1.5966px solid rgba(66, 80, 102, 0.4);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-
-}
-.inp-provincia{
+    display: grid;
+    margin: 7%;
+    margin-top: 3%;
+    margin-bottom: 1%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 19.1592px;
     gap: 9.58px;
-
-    position: absolute;
     width: 376px;
     height: 41px;
-    left: 27px;
-    top : 1145px;
+    background: rgba(196, 196, 196, 0.44);
+    border: 1.5966px solid rgba(66, 80, 102, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 
+}
+.inp-provincia{
+    display: grid;
+    margin: 7%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 19.1592px;
+    gap: 9.58px;
+    width: 376px;
+    height: 41px;
     background: rgba(196, 196, 196, 0.44);
     border: 1.5966px solid rgba(66, 80, 102, 0.4);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -395,130 +384,121 @@ align-content: center;
 align-items: center;
 }
 .Titulo-Pago {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 376px;
-height: 36px;
-min-height: 24px;
-left: 26px;
-top: 1200px;
-
-background: #B7312C;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-text-align: center;
-color: #ffffff;
-}
-.Metodo-Pago-1 {
-  
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 177px;
-height: 36px;
-min-height: 24px;
-left: 23px;
-top: 1250px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-
-}
-.Metodo-Pago-2{
-    
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-
-position: absolute;
-width: 177px;
-height: 36px;
-min-height: 24px;
-left: 221px;
-top: 1250px;
-
-background: rgba(196, 196, 196, 0.44);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
-
-}
-.Donar-Hoy {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    margin: 7%;
+    margin-top: 3%;
+    margin-bottom: 1%;
     justify-content: center;
     align-items: center;
     padding: 4px 8px;
     gap: 10px;
-
-    position: absolute;
-    width: 116px;
-    height: 54px;
+    width: 376px;
+    height: 36px;
     min-height: 24px;
-    left: calc(50% - 116px/2 - 5px);
-    top: 1300px;
-
+    background: #B7312C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.Metodos-Pago{
+    display: grid;
+    margin: 7%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    
+}
+.Metodo-Pago-1 {
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 177px;
+    height: 36px;
+    min-height: 24px;
     background: rgba(196, 196, 196, 0.44);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
 
 }
-.Terminos {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4px 2px;
-gap: 10px;
+.Metodo-Pago-2{
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+    margin-left: 6%;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 20px;
+    width: 177px;
+    height: 36px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 
-position: absolute;
-width: 16px;
-height: 15px;
-left: calc(50% - 16px/2 - 136px);
-top: 1365px;
+}
+.Donar-Hoy {
+    display: grid;
+    margin: 7%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 36%;
+    margin-right: 35%;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 10px;
+    width: 116px;
+    height: 54px;
+    min-height: 24px;
+    background: rgba(196, 196, 196, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 
-background: rgba(255, 255, 255, 0.85);
-border: 1px solid #FF0000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 4px;
+}
+.Terminos{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.Terminos-check {
+    display: grid;
+    margin: 50%;
+    margin-right: 0;
+    margin-left: 80%;
+    margin-bottom: 70%;
+    margin-top: 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 2px;
+    gap: 10px;
+    width: 16px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #FF0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
 
 
 
 }
-.Terminos-text {
-    position: absolute;
-    width: 271px;
+.Terminos-text {   
+    display: grid;
+    grid-column: 2;
+    margin: 7%;
+    margin-left: 0;
+    width: 250px;
     height: 32px;
-    left: calc(50% - 271px/2 + 1.5px);
-    top: 1365px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-
-    display: flex;
     align-items: center;
     letter-spacing: 0.4px;
-
     color: #006FFF;
-
- 
 }
 /*Header Css*/
 :root{
@@ -634,8 +614,172 @@ ul{
     border-radius: 30px;
     font-weight: bold;
           
-}      
 }
+/* Responsive adjustments for main content */
+  .split-container {
+    grid-template-columns: 1fr !important;
+  }
+  .logo-CIFOR {
+    width: 80% !important;
+    justify-content: center;
+  }
+  .Titulo-img {
+    width: 150% !important;
+    height: auto !important;
+    right: auto !important;
+  }
+  .Titulo-Donar {
+    grid-column: 3 !important;
+    grid-row: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 30px 0px 0px 30px !important;
+    padding: 10px !important;
+  }
+  .Sub-Titulo {
+    position: static !important;
+    width: 100% !important;
+    text-align: center !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 10px 0 !important;
+    padding:10px;
+  }
+  .Sub-Titulo h2{
+    padding: 0 40%;
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .Parafo-Donar {
+    height: 50% !important;
+    font-size: 20px !important;
+    padding: 0 60px !important;
+  }
+  .Form-Titulo-Donar {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .Form-Donar{
+    font-size: 20px;
+  }
+  .button-Donacion {
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .button-Donacion-1,
+  .button-Donacion-2,
+  .button-Donacion-3,
+  .button-Donacion-4 {
+    width: 100% !important;
+    margin: 5px 0 !important;
+    font-size: 16px;
+  }
+  .Datos-Donar {
+    width: 80% !important;
+    margin: 0 auto !important;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .Correo-DNI-Donar {
+    grid-template-columns: 1fr !important;
+    margin: 10px auto !important;
+    
+  }
+  .Titulo-Datos-Donar {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .button-Datos-Name,
+  .button-Datos-MiddleName,
+  .button-Datos-Email,
+  .button-Datos-DNI,
+  .button-Datos-Numero {
+    width: 100% !important;
+    margin: 5px 0 !important;
+    font-size: 16px !important;
+  }
+  .Nombre-Apellido-Donar{
+    grid-template-columns: 1fr 1fr !important;
+    margin: 10px auto !important;
+    gap: 40px;
+    
+    
+  }
+  .button-Datos-Name{
+    grid-column: 1;
+  }
+  .button-Datos-MiddleName{
+    grid-column: 2;
+  }
+  .button-Datos-Numero{
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .Fecha-Nacimiento,
+  .Fecha {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .Fecha-Nacimiento{
+    grid-template-columns: 1fr 1fr !important;
+    padding-right: 40%;
+    font-size: 18px !important;
+  }
+  .inp-localida,
+  .inp-provincia {
+    width: 80% !important;
+    margin: 10px auto !important;
+    font-size: 16px;
+  }
+  .Pago {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+  .Titulo-Pago {
+    width: 90% !important;
+    margin: 10px auto !important;
+  }
+  .Metodos-Pago {
+    grid-template-columns: 1fr 1fr !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .Metodo-Pago-1{
+    width: 50% !important;
+    margin: 5px 0 !important;
+    font-size: 16px;
+  }
+  .Metodo-Pago-2{
+    width: 50% !important;
+    margin: 5px 0 !important;
+    font-size: 16px;
+  }
+  .Donar-Hoy {
+    width: 50% !important;
+    margin: 10px auto !important;
+    font-size: 16px;
+    
+  }
+  .Terminos {
+    width: 60% !important;
+    margin: 0 30% 0 23%!important;
+  }
+  .Terminos-check{
+    margin-top: 7px;
+  }
+  .Terminos-text {
+    width: 80% !important;
+    margin: 10px 10px 10px 0px !important;
+    text-align: center !important;
+    font-size: 16px;
+  }
+}      
 @media(min-width:900px){
    .label-menu {
     display: none;
@@ -658,4 +802,103 @@ ul{
     font-weight: bold;
           
 }   
+}
+/* Estilo del footer */
+.footer {
+  background-color: rgb(183, 49, 44);
+  padding: 30px;
+  color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-section img {
+  width: 150px;
+}
+
+.logo-text {
+  display: flex;
+  line-height: 1.5;
+  justify-content: center;
+}
+
+.social-section {
+  align-content: center;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons img {
+  width: 48px;   /* Ajusta el tamaño que desees para tus iconos */
+  height: 48px;  /* Ajusta el tamaño que desees para tus iconos */
+  margin: 0 5px; /* Espacio entre los iconos */
+  vertical-align: middle; /* Ayuda a alinear si hay problemas con la altura de línea */
+}
+
+.social-section .social-icons a {
+    text-decoration: none;
+}
+
+.social-section .social-icons a:hover {
+  opacity: 0.8;
+}
+
+.text-section {
+  max-width: 400px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-bottom .links {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-bottom .links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-bottom .links a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom p {
+  font-size: 100%;
+}
+/* Media Queries Celular (para corregir elementos hechos sin mobile-first)*/
+@media(max-width:768px) {
+  .logo-text {
+    display: none;
+  }
+  .text-section {
+    display: none;
+  }
+  .social-section p {
+    display: none;
+  }
 }

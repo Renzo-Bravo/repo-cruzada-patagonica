@@ -7,18 +7,158 @@ html {
     text-align: center;
 }
 
-.title {
-    margin: 30px;
+h1 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.pageh2 {
+    margin-bottom: 4%;
+}
+
+.separator, .separatorStart, .separatorEnd {
+    width: 100%;
+    align-content: center;
+    padding: 4px;
+    padding-top: 8px;
 }
 
 .imgSchool {
-    width: 400px;
-    margin: 0px;
+    width: 300px;
+    margin-bottom: 0%
+}
+
+.imgSchoolCEI {
+    width: 300px;
+    margin-bottom:37px;
+    margin-top: 25px;
 }
 
 .targetSchool {
+    display: flex;
+    justify-content: center;
     margin: 30px;
 }
+
+.link-email {
+    text-decoration: none;
+    color: rgb(183, 49, 44);
+}
+
+/*Responsive Tablets*/
+
+@media (min-width: 600px) and (max-width: 720x) {
+    
+    .targetSchool {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+        text-align: left;
+        margin: 40px auto;
+        max-width: 90%;
+        font-size: 20px;
+    }
+
+    .imgSchool, .imgSchoolCEI {
+        width: 40vw;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .title h1, .title p {
+        text-align: center;
+        margin: 0 10%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .social-section ul {
+        justify-content: center;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+/*Resposive Desktop */
+
+@media (min-width: 1024px) {
+    
+
+ .uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .dos {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+ }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .targetSchool {
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    max-width: 1100px;
+    text-align: center;
+  }
+
+  .imgSchool, .imgSchoolCEI {
+    width: 300px;
+    max-height: 250px;
+  }
+
+  .title h1, .title p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 20px 60px;
+  }
+
+  .links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .social-section ul {
+    justify-content: flex-end;
+  }
+}
+
+
+
 
 
 
