@@ -155,10 +155,13 @@ ul{
   font-size: larger;
   font-size: 50px;
   margin: 5%;
+  
 }
 
 .mainTitle img {
   width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5%;
 }
 
 .about {
@@ -167,6 +170,7 @@ ul{
 
 .about h2 {
   font-size: 40px;
+  margin: 5%;
 }
 
 p {
@@ -182,8 +186,12 @@ gap: 10px;
 
 background: #C4C4C4;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-border-radius: 30px;
+border-radius: 500px;
+}
 
+button a {
+  color: black;
+  text-decoration: none;
 }
 
 .challenges {
@@ -216,10 +224,10 @@ button {
   margin: 5%;
 }
 
-.finalImage {
+.guardaDesign {
   margin-bottom: 0;
 }
-.finalImage img {
+.guardaDesign img {
   width: 100%;
 }
 
@@ -328,6 +336,7 @@ button {
 .label-menu {
     display: none;
 }
+
 .ul-link {
     position: static;
     width: auto;
@@ -348,5 +357,23 @@ button {
 }
 .logo-text p {
   font-size: 15px;
+}
+}
+/* Media Queries Laptop/PC (1024px) */
+@media(min-width:768px){
+.label-menu {
+    display: none;
+}
+
+.challenges img {
+  display: flex;
+}
+
+.about {
+  width: 90%;
+}
+
+#redMark {
+  width: 60%;
 }
 }
