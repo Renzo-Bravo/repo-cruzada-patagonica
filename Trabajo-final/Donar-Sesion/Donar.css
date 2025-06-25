@@ -7,6 +7,7 @@ body{
     align-content: center;
     display: flex;
     flex-direction: row;
+    padding-left: 10%;
 }
 .Logo-Tira{
     width: 100%;
@@ -17,12 +18,10 @@ body{
 }
 .Titulo-img{
     display: grid;
-    grid-column: 1 / 3;
-    grid-row: 1;
-    width: 282px;
-    height: 89px;
-    right: 200px;
- 
+    grid-column: 1 ;
+    width: 80%;
+    margin-left: 10%;
+
 }
 .Mucha-Gracias{
     display: grid;
@@ -42,8 +41,9 @@ align-content: center;
 }
 .split-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
+   
 }
 .Titulo-Donar {
 display: grid;
@@ -69,18 +69,17 @@ letter-spacing: -0.08px;
 color: #000000;
 }
 .Sub-Titulo {
-    position: absolute;
+    display: grid;
+    margin: 7%;
+    margin-top: 2%;
+    margin-left: 35%;
     width: 138px;
     height: 31px;
-    left: calc(50% - 138px/2 + 3px);
-    top: 400px;
-
     font-family: 'Inria Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: -0.08px;
@@ -117,7 +116,7 @@ align-items: center;
     align-items: center;
     padding: 4px 8px;
     gap: 10px;
-    width: 87%;
+    width: 376px;
     height: 40px;
     min-height: 24px;
     margin: 5%;
@@ -622,9 +621,10 @@ ul{
   .logo-CIFOR {
     width: 80% !important;
     justify-content: center;
+    padding-left: 10%;
   }
   .Titulo-img {
-    width: 150% !important;
+    width: 80% !important;
     height: auto !important;
     right: auto !important;
   }
@@ -637,11 +637,10 @@ ul{
     padding: 10px !important;
   }
   .Sub-Titulo {
-    position: static !important;
+    display: grid;
+    margin: 7%;
     width: 100% !important;
     text-align: center !important;
-    top: auto !important;
-    left: auto !important;
     margin: 10px 0 !important;
     padding:10px;
   }
@@ -649,12 +648,14 @@ ul{
     padding: 0 40%;
     display: grid;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 20%;
   }
   .Parafo-Donar {
+    margin-top: 5%;
     height: 50% !important;
     font-size: 20px !important;
     padding: 0 60px !important;
+    line-height: 20px;
   }
   .Form-Titulo-Donar {
     width: 80% !important;
@@ -902,3 +903,171 @@ ul{
     display: none;
   }
 }
+/* --responsive compu-- */
+@media(min-width:1024px){
+  .split-container {
+    grid-template-columns: 1fr !important;
+  }
+  .logo-CIFOR {
+    width: 70% !important;
+    justify-content: center;
+    padding-left: 10%;
+  }
+  .Titulo-img {
+    width: 80% !important;
+    height: auto !important;
+    right: auto !important;
+  }
+  .Titulo-Donar {
+    grid-column: 3 !important;
+    grid-row: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 30px 0px 0px 30px !important;
+    padding: 10px !important;
+  }
+  .Sub-Titulo {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 10px 0 !important;
+    padding:10px 100px;
+  }
+  .Sub-Titulo h2{
+    padding: 0 40%;
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .Parafo-Donar {
+    display: grid;
+    margin-top: 5%;
+    width: 100%;
+    height: 60% !important;
+    font-size: 24px !important;
+    padding: 0 100px !important;
+    line-height: 30px;
+  }
+  .Form-Titulo-Donar {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .Form-Donar{
+    font-size: 20px;
+  }
+  .button-Donacion {
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .button-Donacion-1,
+  .button-Donacion-2,
+  .button-Donacion-3,
+  .button-Donacion-4 {
+    width: 100% !important;
+    margin: 5px 0 !important;
+    font-size: 16px;
+  }
+  .Datos-Donar {
+    width: 80% !important;
+    margin: 0 auto !important;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .Correo-DNI-Donar {
+    grid-template-columns: 1fr !important;
+    margin: 11px auto !important;
+    
+  }
+  .Titulo-Datos-Donar {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .button-Datos-Name,
+  .button-Datos-MiddleName,
+  .button-Datos-Email,
+  .button-Datos-DNI,
+  .button-Datos-Numero {
+    width: 100% !important;
+    margin: 5px 0 !important;
+    font-size: 16px !important;
+    
+  }
+  .Nombre-Apellido-Donar{
+    grid-template-columns: 1fr 1fr !important;
+    margin: 10px auto !important;
+    gap: 40px;
+    
+  }
+  .button-Datos-Name{
+    grid-column: 1;
+  }
+  .button-Datos-MiddleName{
+    grid-column: 2;
+  }
+  .button-Datos-Numero{
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .Fecha-Nacimiento,
+  .Fecha {
+    width: 80% !important;
+    margin: 10px auto !important;
+  }
+  .Fecha-Nacimiento{
+    grid-template-columns: 1fr 1fr !important;
+    padding-right: 40%;
+    font-size: 18px !important;
+  }
+  .inp-localida,
+  .inp-provincia {
+    width: 80% !important;
+    margin: 10px auto !important;
+    font-size: 16px;
+  }
+  .Pago {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+  .Titulo-Pago {
+    width: 90% !important;
+    margin: 10px auto !important;
+  }
+  .Metodos-Pago {
+    grid-template-columns: 1fr 1fr !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .Metodo-Pago-1{
+    width: 50% !important;
+    margin: 5px 0 !important;
+    font-size: 16px;
+  }
+  .Metodo-Pago-2{
+    width: 50% !important;
+    margin: 5px 0 !important;
+    font-size: 16px;
+  }
+  .Donar-Hoy {
+    width: 50% !important;
+    margin: 10px auto !important;
+    font-size: 16px;
+    
+  }
+  .Terminos {
+    
+    margin: 0 30% 0 23%!important;
+  }
+  .Terminos-check{
+    margin-top: 7px;
+  }
+  .Terminos-text {
+    width: 80% !important;
+    margin: 10px 10px 10px 0px !important;
+    text-align: center !important;
+    font-size: 16px;
+  }
+} 
